@@ -40,5 +40,6 @@ app.get('/stream', function(req, res) {
 });
 
 app.listen(3000, function() {
+    console.log('\033[2J');
     console.log('application started!');
 });
