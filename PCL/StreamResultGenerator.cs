@@ -12,7 +12,7 @@ namespace PCL
         {
             _streamTask = new StreamTask(url, jsonReceived);
 
-            await Task.Run(async () =>
+            await TaskEx.Run(async () =>
             {
                 await _streamTask.Start();
             }).ConfigureAwait(false);

@@ -62,7 +62,7 @@ namespace PCL
         private HttpClient GetHttpClient()
         {
             var httpClient = new HttpClient(new StreamHttpHandler());
-            httpClient.Timeout = Timeout.InfiniteTimeSpan;
+            httpClient.Timeout = TimeSpan.FromDays(Timeout.Infinite);
 
             return httpClient;
         }
