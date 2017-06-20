@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentStreamRunner", "ConcurrentStreamRunner\ConcurrentStreamRunner.csproj", "{0C4819CB-981C-4311-A6DD-E7D591FE0F9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Core", "Tweetinvi.Core\Tweetinvi.Core.csproj", "{CD1AE921-D88A-4145-87B6-B82F276872F8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Security", "Tweetinvi.Security\Tweetinvi.Security.csproj", "{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.WebLogic", "Tweetinvi.WebLogic\Tweetinvi.WebLogic.csproj", "{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL", "PCL\PCL.csproj", "{A3D1D455-D1F0-4BA6-99B8-53D678C3AEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentStreamRunner-4.6", "ConcurrentStreamRunner-4.6\ConcurrentStreamRunner-4.6.csproj", "{FA40BD3A-972A-4FB4-B6E4-CB0AA8559229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard", "NetStandard\NetStandard.csproj", "{5D60A26E-B6D5-4183-94A9-54AF2D7EFAFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +21,18 @@ Global
 		{0C4819CB-981C-4311-A6DD-E7D591FE0F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4819CB-981C-4311-A6DD-E7D591FE0F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4819CB-981C-4311-A6DD-E7D591FE0F9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Release|Any CPU.Build.0 = Release|Any CPU
-		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A3D1D455-D1F0-4BA6-99B8-53D678C3AEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3D1D455-D1F0-4BA6-99B8-53D678C3AEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D1D455-D1F0-4BA6-99B8-53D678C3AEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D1D455-D1F0-4BA6-99B8-53D678C3AEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA40BD3A-972A-4FB4-B6E4-CB0AA8559229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA40BD3A-972A-4FB4-B6E4-CB0AA8559229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA40BD3A-972A-4FB4-B6E4-CB0AA8559229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA40BD3A-972A-4FB4-B6E4-CB0AA8559229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D60A26E-B6D5-4183-94A9-54AF2D7EFAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D60A26E-B6D5-4183-94A9-54AF2D7EFAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D60A26E-B6D5-4183-94A9-54AF2D7EFAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D60A26E-B6D5-4183-94A9-54AF2D7EFAFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
